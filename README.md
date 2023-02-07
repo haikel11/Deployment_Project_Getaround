@@ -24,3 +24,83 @@ For this case study, we suggest that you put yourselves in our shoes, and run an
 When using Getaround, drivers book cars for a specific time period, from an hour to a few days long. They are supposed to bring back the car on time, but it happens from time to time that drivers are late for the checkout.
 
 Late returns at checkout can generate high friction for the next driver if the car was supposed to be rented again on the same day : Customer service often reports users unsatisfied because they had to wait for the car to come back from the previous rental or users that even had to cancel their rental because the car wasn’t returned on time.
+
+Input example:
+
+```
+{
+  "input": [[7.0, 0.27, 0.36, 20.7, 0.045, 45.0, 170.0, 1.001, 3.0, 0.45, 8.8], [7.0, 0.27, 0.36, 20.7, 0.045, 45.0, 170.0, 1.001, 3.0, 0.45, 8.8]]
+}
+```
+
+The response should be a JSON with one key `prediction` corresponding to the prediction.
+
+Response example:
+
+```
+{
+  "prediction":[6,6]
+}
+```
+
+### Documentation page
+
+You need to provide the users with a **documentation** about your API.
+
+It has to be located at the `/docs` of your website. If we take the URL example above, it should be located directly at `https://your-url.com/docs`).
+
+This small documentation should at least include:
+- An h1 title: the title is up to you.
+- A description of every endpoints the user can call with the endpoint name, the HTTP method, the required input and the expected output (you can give example).
+
+You are free to add other any other relevant informations and style your HTML as you wish.
+
+### Online production
+
+You have to **host your API online**. We recommend you to use [Heroku](https://www.heroku.com/) as it is free of charge. But you are free to choose any other hosting provider.
+
+## Helpers 🦮
+
+To help you start with this project we provide you with some pieces of advice:
+
+* Spend some time understanding data 
+* Don't overlook Data Analysis part, there is a lot of insights to find out. 
+* Data Analysis should take 2 to 5 hours 
+* Machine Learning should take 3 to 6 hours 
+* You are not obligated to use libraries to handle your Machine Learning workflow like `mlflow` but we definitely advise you to do so.
+
+
+### Share your code
+
+In order to get evaluation, do not forget to share your code on a [Github](https://github.com/) repository. You can create a [`README.md`](https://guides.github.com/features/mastering-markdown/) file with a quick description about this project, how to setup locally and the online URL.
+
+## Deliverable 📬
+
+To complete this project, you should deliver:
+
+- A **dashboard** in production (accessible via a web page for example)
+- The **whole code** stored in a **Github repository**. You will include the repository's URL.
+- An **documented online API** on Heroku server (or any other provider you choose) containing at least **one `/predict` endpoint** that respect the technical description above. We should be able to request the API endpoint `/predict` using `curl`:
+
+```shell
+$ curl -i -H "Content-Type: application/json" -X POST -d '{"input": [[7.0, 0.27, 0.36, 20.7, 0.045, 45.0, 170.0, 1.001, 3.0, 0.45, 8.8]]}' http://your-url/predict
+```
+
+Or Python:
+
+```python
+import requests
+
+response = requests.post("https://your-url/predict", json={
+    "input": [[7.0, 0.27, 0.36, 20.7, 0.045, 45.0, 170.0, 1.001, 3.0, 0.45, 8.8]]
+})
+print(response.json())
+```
+
+## Data 
+
+There are two files you need to download: 
+
+* [Delay Analysis](https://full-stack-assets.s3.eu-west-3.amazonaws.com/Deployment/get_around_delay_analysis.xlsx) 👈 Data Analysis 
+* [Pricing Optimization](https://full-stack-assets.s3.eu-west-3.amazonaws.com/Deployment/get_around_pricing_project.csv) 👈 Machine Learning 
+
