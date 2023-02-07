@@ -25,24 +25,6 @@ When using Getaround, drivers book cars for a specific time period, from an hour
 
 Late returns at checkout can generate high friction for the next driver if the car was supposed to be rented again on the same day : Customer service often reports users unsatisfied because they had to wait for the car to come back from the previous rental or users that even had to cancel their rental because the car wasn’t returned on time.
 
-Input example:
-
-```
-{
-  "input": [[7.0, 0.27, 0.36, 20.7, 0.045, 45.0, 170.0, 1.001, 3.0, 0.45, 8.8], [7.0, 0.27, 0.36, 20.7, 0.045, 45.0, 170.0, 1.001, 3.0, 0.45, 8.8]]
-}
-```
-
-The response should be a JSON with one key `prediction` corresponding to the prediction.
-
-Response example:
-
-```
-{
-  "prediction":[6,6]
-}
-```
-
 ### Documentation page
 
 You need to provide the users with a **documentation** about your API.
