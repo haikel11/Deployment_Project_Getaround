@@ -1,9 +1,0 @@
-Create a file app.py
-run : docker run -it -v "$(pwd):/home/app" -e PORT=80 -p 4000:80 jedha/streamlit-sample-app in WSL terminal
-Code in app.py
-run : streamlit run --server.port 80 --server.address 0.0.0.0 app.py
-
-http://127.0.0.1:4000/ or localhost:4000
-
-
-
