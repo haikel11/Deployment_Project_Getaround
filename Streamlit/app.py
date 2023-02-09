@@ -7,6 +7,6 @@ import numpy as np
 
 ### Config
 st.set_page_config(
-    page_title="Get around",
+    page_title="Getaround",
     layout="wide"
 )
