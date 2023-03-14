@@ -74,23 +74,7 @@ with col1:
                   xaxis = {"visible": True})
         fig.update_xaxes(tickfont_size=15)                     
         st.plotly_chart(fig)
-with col2:
-        st.subheader("Checkin status of rental & drivers")
-        fig = px.histogram(df, x="delay",
-                    color = "state",
-                    barmode = "group",
-                    width = 800,
-                    height = 600,
-                    histnorm = "percent", 
-                    text_auto = True)
-        fig.update_traces(textposition = "outside", textfont_size = 15)
-        fig.update_layout(margin=dict(l=50,r=50,b=50,t=50,pad=4),
-                  yaxis = {"visible": False}, 
-                  xaxis = {"visible": True})
-        fig.update_xaxes(tickfont_size=15)                     
-        st.plotly_chart(fig)
-              
-
+        
 st.subheader("Checkin type & status of rental")
 fig = px.histogram(df, x = "state",
                    color = "checkin_type",
