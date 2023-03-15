@@ -1,7 +1,8 @@
 # GetAround 
 
- - link of the dashboard : https://dashboard-getaround-jedha.herokuapp.com/
- - link of the api : https://fast-tryout.herokuapp.com/
+ link of the dashboard : https://dashboard-getaround-jedha.herokuapp.com/
+ link of the api : https://fast-tryout.herokuapp.com/
+ video link : https://share.vidyard.com/watch/Vsku2qtRKVohDRRfd1U6KQ?
 
 [GetAround](https://www.getaround.com/?wpsrc=Google+Organic+Search) is the Airbnb for cars. You can rent cars from any person for a few hours to a few days! Founded in 2009, this company has known rapid growth. In 2019, they count over 5 million users and about 20K available cars worldwide. 
 
@@ -56,8 +57,5 @@ To complete this project, you should deliver:
 
 There are two files you need to download: 
 
-* [Delay Analysis](https://full-stack-assets.s3.eu-west-3.amazonaws.com/Deployment/get_around_delay_analysis.xlsx) 👈 Data Analysis 
-* [Pricing Optimization](https://full-stack-assets.s3.eu-west-3.amazonaws.com/Deployment/get_around_pricing_project.csv) 👈 Machine Learning 
-
-
-video link : https://share.vidyard.com/watch/Vsku2qtRKVohDRRfd1U6KQ?
+* [Delay Analysis](https://full-stack-assets.s3.eu-west-3.amazonaws.com/Deployment/get_around_delay_analysis.xlsx) Data Analysis 
+* [Pricing Optimization](https://full-stack-assets.s3.eu-west-3.amazonaws.com/Deployment/get_around_pricing_project.csv) Machine Learning 
