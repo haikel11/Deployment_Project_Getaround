@@ -1,8 +1,8 @@
 # GetAround 
 
- link of the dashboard : https://dashboard-getaround-jedha.herokuapp.com/
- link of the api : https://fast-tryout.herokuapp.com/
- video link : https://share.vidyard.com/watch/Vsku2qtRKVohDRRfd1U6KQ?
+  - link of the dashboard : https://dashboard-getaround-jedha.herokuapp.com/
+  - link of the api : https://fast-tryout.herokuapp.com/
+  - video link : https://share.vidyard.com/watch/Vsku2qtRKVohDRRfd1U6KQ?
 
 [GetAround](https://www.getaround.com/?wpsrc=Google+Organic+Search) is the Airbnb for cars. You can rent cars from any person for a few hours to a few days! Founded in 2009, this company has known rapid growth. In 2019, they count over 5 million users and about 20K available cars worldwide. 
 
