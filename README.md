@@ -20,7 +20,7 @@ The checkin and checkout of our rentals can be done with three distinct flows:
 * **Connect:** the driver doesn’t meet the owner and opens the car with his smartphone
 * **📝 Paper** contract (negligible)
 
-## Project 🚧
+## Project
 
 For this case study, we suggest that you put yourselves in our shoes, and run an analysis we made back in 2017 🔮 🪄
 
@@ -44,43 +44,13 @@ You are free to add other any other relevant informations and style your HTML as
 
 You have to **host your API online**. We recommend you to use [Heroku](https://www.heroku.com/) as it is free of charge. But you are free to choose any other hosting provider.
 
-## Helpers 🦮
-
-To help you start with this project we provide you with some pieces of advice:
-
-* Spend some time understanding data 
-* Don't overlook Data Analysis part, there is a lot of insights to find out. 
-* Data Analysis should take 2 to 5 hours 
-* Machine Learning should take 3 to 6 hours 
-* You are not obligated to use libraries to handle your Machine Learning workflow like `mlflow` but we definitely advise you to do so.
-
-
-### Share your code
-
-In order to get evaluation, do not forget to share your code on a [Github](https://github.com/) repository. You can create a [`README.md`](https://guides.github.com/features/mastering-markdown/) file with a quick description about this project, how to setup locally and the online URL.
-
-## Deliverable 📬
+## Deliverable
 
 To complete this project, you should deliver:
 
 - A **dashboard** in production (accessible via a web page for example)
 - The **whole code** stored in a **Github repository**. You will include the repository's URL.
-- An **documented online API** on Heroku server (or any other provider you choose) containing at least **one `/predict` endpoint** that respect the technical description above. We should be able to request the API endpoint `/predict` using `curl`:
-
-```shell
-$ curl -i -H "Content-Type: application/json" -X POST -d '{"input": [[7.0, 0.27, 0.36, 20.7, 0.045, 45.0, 170.0, 1.001, 3.0, 0.45, 8.8]]}' http://your-url/predict
-```
-
-Or Python:
-
-```python
-import requests
-
-response = requests.post("https://your-url/predict", json={
-    "input": [[7.0, 0.27, 0.36, 20.7, 0.045, 45.0, 170.0, 1.001, 3.0, 0.45, 8.8]]
-})
-print(response.json())
-```
+- An **documented online API** on Heroku server (or any other provider you choose) containing at least **one `/predict` endpoint** that respect the technical description above. 
 
 ## Data 
 
@@ -88,3 +58,6 @@ There are two files you need to download:
 
 * [Delay Analysis](https://full-stack-assets.s3.eu-west-3.amazonaws.com/Deployment/get_around_delay_analysis.xlsx) 👈 Data Analysis 
 * [Pricing Optimization](https://full-stack-assets.s3.eu-west-3.amazonaws.com/Deployment/get_around_pricing_project.csv) 👈 Machine Learning 
+
+
+video link : https://share.vidyard.com/watch/Vsku2qtRKVohDRRfd1U6KQ?
