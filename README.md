@@ -2,6 +2,7 @@
 
   - link of the dashboard : https://dashboard-getaround-jedha.herokuapp.com/
   - link of the api : https://fast-tryout.herokuapp.com/
+  - link of the demonstration : https://share.vidyard.com/watch/Vsku2qtRKVohDRRfd1U6KQ?
 
 [GetAround](https://www.getaround.com/?wpsrc=Google+Organic+Search) is the Airbnb for cars. You can rent cars from any person for a few hours to a few days! Founded in 2009, this company has known rapid growth. In 2019, they count over 5 million users and about 20K available cars worldwide. 
 
@@ -22,7 +23,7 @@ The checkin and checkout of our rentals can be done with three distinct flows:
 
 ## Project
 
-For this case study, we suggest that you put yourselves in our shoes, and run an analysis we made back in 2017 🔮 🪄
+For this case study, we suggest that you put yourselves in our shoes, and run an analysis we made back in 2017
 
 When using Getaround, drivers book cars for a specific time period, from an hour to a few days long. They are supposed to bring back the car on time, but it happens from time to time that drivers are late for the checkout.
 
